@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+html, html body {
+  width: 100%;
+  height: 100%; }
+  html body {
+    box-sizing: border-box;
+    padding-top: 1.8rem;
+    padding-bottom: 2.4rem;
+    display: flex;
+    flex-direction: column; }
+    html body header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      height: 1.8rem;
+      background: #333;
+      color: mintcream;
+      display: flex;
+      justify-content: space-between;
+      line-height: 1.8rem;
+      font-size: 0.8rem; }
+      html body header > p:nth-child(1), html body body header > p:nth-child(1) {
+        margin-left: 0.8rem;
+        font-weight: bold; }
+      html body header .iconfont {
+        display: inline-block;
+        margin-right: 1.2rem;
+        font-size: 1rem; }
+    html body #comtent, html body #comtent ul {
+      margin-top: 1.8rem;
+      height: 100%; }
+      html body #comtent ul {
+        overflow-y: auto; }
+
+/*# sourceMappingURL=one.css.map */

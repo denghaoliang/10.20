@@ -1,0 +1,49 @@
+$sr:25;
+*{padding: 0;margin: 0;}
+html{
+    width: 100%;
+    height: 100%;
+    body{
+        @extend html;
+        box-sizing: border-box;
+        padding-top: 45/$sr+rem;
+        padding-bottom: 60/$sr+rem;
+        display: flex;
+        flex-direction: column;
+    header{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 45/$sr+rem;
+        background:#333;
+        color:mintcream;
+        display: flex;
+        justify-content: space-between;
+        line-height:45/$sr+rem;
+        font-size: 20/$sr+rem;
+        &>p:nth-child(1){
+          margin-left: 20/$sr+rem; 
+          font-weight: bold; 
+        }
+         .iconfont{
+            display: inline-block;
+            margin-right:30/$sr+rem;
+            font-size: 25/$sr+rem;
+            }
+          }
+    #comtent{
+        margin-top: 45/$sr+rem;
+        height: 100%;
+        ul{
+            @extend #comtent;
+            overflow-y: auto;
+        }
+    }
+   
+   
+   
+   
+   
+   
+    }
+}

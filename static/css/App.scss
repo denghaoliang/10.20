@@ -1,0 +1,53 @@
+
+$sr:25;
+*{margin: 0;padding: 0;}
+html{
+        width: 100%;
+        height: 100%;
+   
+body{
+     @extend html;  
+        #app {
+          font-family: 'Avenir', Helvetica, Arial, sans-serif;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+          position: relative;
+          width: 100%;
+          height: 100%;
+          
+          &>a{
+              position: absolute;
+              bottom: 0;
+              display: block;
+              text-decoration: none;
+              background:#fff;
+              width: 25%;
+              height: 60/$sr+rem;
+              border-top: solid 1/$sr+rem lightgray;
+              color: grey;
+              text-align: center;
+              position: fixed;
+             .iconfont{
+                 font-size: 36/$sr+rem;
+                 line-height: 45/$sr+rem;
+             }
+             p{
+                 font-size: 10/$sr+rem ;
+                 line-height: 15/$sr+rem;
+             }
+          }
+          .two{left: 25%;}
+          .tree{left: 50%;}
+          .hello{left: 75%;}
+        }
+        
+
+    }
+
+
+
+
+
+
+
+}

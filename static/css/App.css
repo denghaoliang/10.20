@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html, html body {
+  width: 100%;
+  height: 100%; }
+  html body #app {
+    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    width: 100%;
+    height: 100%; }
+    html body #app > a, html body body #app > a {
+      position: absolute;
+      bottom: 0;
+      display: block;
+      text-decoration: none;
+      background: #fff;
+      width: 25%;
+      height: 2.4rem;
+      border-top: solid 0.04rem lightgray;
+      color: grey;
+      text-align: center;
+      position: fixed; }
+      html body #app > a .iconfont {
+        font-size: 1.44rem;
+        line-height: 1.8rem; }
+      html body #app > a p {
+        font-size: 0.4rem;
+        line-height: 0.6rem; }
+    html body #app .two {
+      left: 25%; }
+    html body #app .tree {
+      left: 50%; }
+    html body #app .hello {
+      left: 75%; }
+
+/*# sourceMappingURL=App.css.map */
