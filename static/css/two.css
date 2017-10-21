@@ -1,0 +1,57 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0; }
+
+#comtentb {
+  margin-top: 1.8rem;
+  margin-bottom: 2.4rem;
+  height: 22.48rem;
+  overflow-y: auto;
+  background: #f2f2f2; }
+  #comtentb ul {
+    list-style: none;
+    margin-top: 0.6rem;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 0 0.4rem; }
+    #comtentb ul li {
+      border-bottom: 0.04rem solid #f2f2f2;
+      height: 2.2rem;
+      background-size: 1.4rem 1.4rem !important;
+      font-size: 0.64rem;
+      padding-left: 2.6rem;
+      line-height: 2.2rem;
+      background-position: 0.4rem 0.4rem !important; }
+    #comtentb ul:nth-of-type(1) li:nth-child(1) {
+      background: url(../../src/img/新的朋友.png) no-repeat; }
+    #comtentb ul:nth-of-type(1) li:nth-child(2) {
+      background: url(../../src/img/群聊.png) no-repeat; }
+    #comtentb ul:nth-of-type(1) li:nth-child(3) {
+      background: url(../../src/img/标签管理.png) no-repeat; }
+    #comtentb ul:nth-of-type(1) li:nth-child(4) {
+      background: url(../../src/img/关注公众号.png) no-repeat; }
+    #comtentb ul:nth-of-type(2) li:nth-child(1) {
+      background: url(../../src/img/a.jpg) no-repeat; }
+    #comtentb ul:nth-of-type(2) li:nth-child(2) {
+      background: url(../../src/img/b.jpg) no-repeat; }
+    #comtentb ul:nth-of-type(3) li:nth-child(1) {
+      background: url(../../src/img/c.jpg) no-repeat; }
+    #comtentb ul:nth-of-type(3) li:nth-child(2) {
+      background: url(../../src/img/d.jpg) no-repeat; }
+    #comtentb ul:nth-of-type(3) li:nth-child(3) {
+      background: url(../../src/img/e.jpg) no-repeat; }
+    #comtentb ul:nth-of-type(3) li:nth-child(4) {
+      background: url(../../src/img/f.jpg) no-repeat; }
+    #comtentb ul:nth-of-type(3) li:nth-child(5) {
+      background: url(../../src/img/g.jpg) no-repeat; }
+    #comtentb ul:nth-of-type(3) li:nth-child(6) {
+      background: url(../../src/img/l.jpg) no-repeat; }
+    #comtentb ul:nth-of-type(3) li:nth-child(7) {
+      background: url(../../src/img/n.jpg) no-repeat; }
+    #comtentb ul:nth-of-type(3) li:nth-child(8) {
+      background: url(../../src/img/m.jpg) no-repeat; }
+    #comtentb ul:nth-of-type(3) li:nth-child(9) {
+      background: url(../../src/img/a.jpg) no-repeat; }
+
+/*# sourceMappingURL=two.css.map */

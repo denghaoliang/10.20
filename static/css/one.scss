@@ -6,8 +6,6 @@ html{
     body{
         @extend html;
         box-sizing: border-box;
-        padding-top: 45/$sr+rem;
-        padding-bottom: 60/$sr+rem;
         display: flex;
         flex-direction: column;
     header{
@@ -33,11 +31,83 @@ html{
           }
     #comtent{
         margin-top: 45/$sr+rem;
-        height: 100%;
+        margin-bottom: 60/$sr+rem;
+        height: 562/$sr+rem;
+        overflow-y: auto;
         ul{
-            @extend #comtent;
-            overflow-y: auto;
+            width: 100%;
+            height: 100%;
         }
+        li{ border-bottom: solid 1px gainsboro;
+            position: relative;
+            box-sizing: border-box;
+            padding-top: 12/$sr+rem ;
+            padding-bottom: 12/$sr+rem ;
+            height: 100/$sr+rem;
+            background-size:75/$sr+rem 75/$sr+rem !important;
+            background-position:12/$sr+rem 12/$sr+rem !important ; 
+            
+            &:nth-child(1){
+                background: url(../../src/img/02461Aa7-1.jpg) no-repeat;
+            }
+           &:nth-child(2){
+                background: url(../../src/img/a.jpg) no-repeat;
+            }
+            &:nth-child(3){
+                background: url(../../src/img/b.jpg) no-repeat;
+            }
+            &:nth-child(4){
+                background: url(../../src/img/c.jpg) no-repeat;
+            }
+            &:nth-child(5){
+                background: url(../../src/img/d.jpg) no-repeat;
+            }
+            &:nth-child(6){
+                background: url(../../src/img/e.jpg) no-repeat;
+            }
+            &:nth-child(7){
+                background: url(../../src/img/f.jpg) no-repeat;
+            }
+            &:nth-child(8){
+                background: url(../../src/img/g.jpg) no-repeat;
+            }
+            &:nth-child(9){
+                background: url(../../src/img/h.jpg) no-repeat;
+            }
+            &:nth-child(10){
+                background: url(../../src/img/j.jpg) no-repeat;
+            }
+            &:nth-child(11){
+                background: url(../../src/img/k.jpg) no-repeat;
+            }&:nth-child(12){
+                background: url(../../src/img/l.jpg) no-repeat;
+            }&:nth-child(13){
+                background: url(../../src/img/n.jpg) no-repeat;
+            }&:nth-child(14){
+                background: url(../../src/img/m.jpg) no-repeat;
+            }&:nth-child(15){
+                background: url(../../src/img/u.jpg) no-repeat;
+            }
+            p{
+               height: 50%;
+               line-height: 50%;
+               margin-left: 100/$sr+rem;
+               font-size: 12/$sr+rem;
+               &:nth-child(1){font-weight: bolder;font-size: 18/$sr+rem;} 
+            }
+            span{
+                position: absolute;
+                right:12/$sr+rem ;
+                top:12/$sr+rem;
+                font-size: 12/$sr+rem ;
+                
+            }
+        }
+    
+    
+    
+    
+    
     }
    
    

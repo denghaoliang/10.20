@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+#comtenta {
+  margin-top: 1.8rem;
+  margin-bottom: 2.4rem;
+  height: 22.48rem;
+  overflow-y: auto;
+  background: #f2f2f2; }
+  #comtenta ul {
+    list-style: none;
+    margin-top: 0.6rem;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 0 0.4rem; }
+  #comtenta li {
+    border-bottom: 0.04rem solid #f2f2f2;
+    height: 2.2rem;
+    background-size: 1.4rem 1.4rem !important;
+    font-size: 0.64rem;
+    padding-left: 2.6rem;
+    line-height: 2.2rem;
+    background-position: 0.4rem 0.4rem !important; }
+  #comtenta ul:nth-child(1) li {
+    background: url(../../src/img/0.png) no-repeat; }
+  #comtenta ul:nth-child(2) li:nth-child(1) {
+    background: url(../../src/img/1.png) no-repeat; }
+  #comtenta ul:nth-child(2) li:nth-child(2) {
+    background: url(../../src/img/2.png) no-repeat; }
+  #comtenta ul:nth-child(3) li:nth-child(1) {
+    background: url(../../src/img/3.png) no-repeat; }
+  #comtenta ul:nth-child(4) li:nth-child(1) {
+    background: url(../../src/img/4.png) no-repeat; }
+  #comtenta ul:nth-child(4) li:nth-child(2) {
+    background: url(../../src/img/5.png) no-repeat; }
+  #comtenta ul:nth-child(5) li:nth-child(1) {
+    background: url(../../src/img/6.png) no-repeat; }
+  #comtenta ul:nth-child(5) li:nth-child(2) {
+    background: url(../../src/img/7.png) no-repeat; }
+  #comtenta ul:nth-child(6) li:nth-child(1) {
+    background: url(../../src/img/8.png) no-repeat; }
+
+/*# sourceMappingURL=tree.css.map */

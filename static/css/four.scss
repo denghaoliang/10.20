@@ -1,0 +1,76 @@
+$sr:25;
+*{padding: 0;margin: 0;}
+#comtentc{
+        margin-top: 45/$sr+rem;
+        margin-bottom: 60/$sr+rem;
+        height: 562/$sr+rem;
+        overflow-y: auto;
+        background:#f2f2f2;
+        
+        &>div{
+            margin-top: 15/$sr+rem;
+            height: 95/$sr+rem;
+            background: url(../../src/img/a.jpg) no-repeat;
+            background-color: #fff;
+            box-sizing: border-box;
+            background-size: 75/$sr+rem 75/$sr+rem;
+            background-position: 8/$sr+rem;
+            font-size: 16/$sr+rem;
+            padding: 20/$sr+rem 0;
+            position: relative;
+            &>p{
+                height: 50%;
+                margin-left:95/$sr+rem;
+                line-height:35/$sr+rem 
+            }
+            span{
+                display: block;
+                background: url(../../src/img/二维码.png) no-repeat;
+                width: 32/$sr+rem;
+                height: 32/$sr+rem;
+                position: absolute;
+                right: 35/$sr+rem;
+                top: 30/$sr+rem;
+            }
+        }
+       ul{
+            list-style: none;
+            margin-top: 15/$sr+rem;
+            background-color: #fff;
+            box-sizing: border-box;
+            padding: 0 10/$sr+rem;
+        
+        li{
+            border-bottom: 1/$sr+rem solid #f2f2f2;
+            height: 55/$sr+rem;
+            background-size:35/$sr+rem 35/$sr+rem !important;  
+            font-size: 16/$sr+rem;
+            padding-left: 65/$sr+rem;
+            line-height: 55/$sr+rem;
+            background-position: 10/$sr+rem 10/$sr+rem !important;
+        }
+         &:nth-of-type(1) li{
+            background: url(../../src/img/钱包.png)no-repeat;
+        }
+        &:nth-of-type(2) li:nth-child(1){
+            background: url(../../src/img/收藏.png)no-repeat;
+        }
+        &:nth-of-type(2) li:nth-child(2){
+            background: url(../../src/img/相册.png)no-repeat;
+        }&:nth-of-type(2) li:nth-child(3){
+            background: url(../../src/img/卡包.png)no-repeat;
+        }&:nth-of-type(2) li:nth-child(4){
+            background: url(../../src/img/表情.png)no-repeat;
+        }
+        &:nth-of-type(3) li{
+            background: url(../../src/img/设置.png)no-repeat;
+        }
+        
+    }
+        
+        
+        
+        
+        
+        
+}

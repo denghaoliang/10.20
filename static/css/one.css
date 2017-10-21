@@ -7,8 +7,6 @@ html, html body {
   height: 100%; }
   html body {
     box-sizing: border-box;
-    padding-top: 1.8rem;
-    padding-bottom: 2.4rem;
     display: flex;
     flex-direction: column; }
     html body header {
@@ -29,10 +27,65 @@ html, html body {
         display: inline-block;
         margin-right: 1.2rem;
         font-size: 1rem; }
-    html body #comtent, html body #comtent ul {
+    html body #comtent {
       margin-top: 1.8rem;
-      height: 100%; }
+      margin-bottom: 2.4rem;
+      height: 22.48rem;
+      overflow-y: auto; }
       html body #comtent ul {
-        overflow-y: auto; }
+        width: 100%;
+        height: 100%; }
+      html body #comtent li {
+        border-bottom: solid 1px gainsboro;
+        position: relative;
+        box-sizing: border-box;
+        padding-top: 0.48rem;
+        padding-bottom: 0.48rem;
+        height: 4rem;
+        background-size: 3rem 3rem !important;
+        background-position: 0.48rem 0.48rem !important; }
+        html body #comtent li:nth-child(1) {
+          background: url(../../src/img/02461Aa7-1.jpg) no-repeat; }
+        html body #comtent li:nth-child(2) {
+          background: url(../../src/img/a.jpg) no-repeat; }
+        html body #comtent li:nth-child(3) {
+          background: url(../../src/img/b.jpg) no-repeat; }
+        html body #comtent li:nth-child(4) {
+          background: url(../../src/img/c.jpg) no-repeat; }
+        html body #comtent li:nth-child(5) {
+          background: url(../../src/img/d.jpg) no-repeat; }
+        html body #comtent li:nth-child(6) {
+          background: url(../../src/img/e.jpg) no-repeat; }
+        html body #comtent li:nth-child(7) {
+          background: url(../../src/img/f.jpg) no-repeat; }
+        html body #comtent li:nth-child(8) {
+          background: url(../../src/img/g.jpg) no-repeat; }
+        html body #comtent li:nth-child(9) {
+          background: url(../../src/img/h.jpg) no-repeat; }
+        html body #comtent li:nth-child(10) {
+          background: url(../../src/img/j.jpg) no-repeat; }
+        html body #comtent li:nth-child(11) {
+          background: url(../../src/img/k.jpg) no-repeat; }
+        html body #comtent li:nth-child(12) {
+          background: url(../../src/img/l.jpg) no-repeat; }
+        html body #comtent li:nth-child(13) {
+          background: url(../../src/img/n.jpg) no-repeat; }
+        html body #comtent li:nth-child(14) {
+          background: url(../../src/img/m.jpg) no-repeat; }
+        html body #comtent li:nth-child(15) {
+          background: url(../../src/img/u.jpg) no-repeat; }
+        html body #comtent li p {
+          height: 50%;
+          line-height: 50%;
+          margin-left: 4rem;
+          font-size: 0.48rem; }
+          html body #comtent li p:nth-child(1) {
+            font-weight: bolder;
+            font-size: 0.72rem; }
+        html body #comtent li span {
+          position: absolute;
+          right: 0.48rem;
+          top: 0.48rem;
+          font-size: 0.48rem; }
 
 /*# sourceMappingURL=one.css.map */
